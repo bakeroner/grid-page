@@ -1,0 +1,16 @@
+.contact-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.right-part {
+	padding: 1rem;
+	background-color: #fff;
+	margin-top: 1rem;
+	margin-bottom: 1rem;
+}
+.form__email-field {
+	width: 80%;
+}
+.form {
+	width: 100%;
+}
