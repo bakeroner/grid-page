@@ -1,0 +1,30 @@
+.footer-container {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 1fr 1fr;
+	grid-template-areas: 
+	"nav rights"
+	"nav social";
+}
+.footer-container__nav {
+	grid-area: nav;
+}
+.nav__link-list {
+	padding-left: 0;
+}
+.list__item {
+	display: inline;
+}
+
+.footer-container__copyright {
+	grid-area: rights;
+}
+.footer-container__social {
+	grid-area: social;
+}
+.social__social-list {
+	padding-left: 0;
+}
+.social-list__item {
+	display: inline;
+}

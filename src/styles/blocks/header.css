@@ -1,0 +1,39 @@
+.header-container {
+	display: grid;
+	grid-template-rows: 1fr 3fr 3fr;
+	grid-template-columns: 1fr;
+
+}
+.header-container__nav-panel {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}
+.nav-panel__logo {
+
+}
+.nav-panel__menu {
+
+}
+.header-container__title-part {
+	text-align: center;
+}
+.title-part__top-title {
+	margin: 0 auto;
+	background-color: green;
+	max-width: 100px;
+}
+.title-part__mid-title {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	border: 10px solid #000;
+	max-width: 400px;
+}
+.history-part__history-image {
+	width: auto;
+	height: auto;
+}
+.header-container__history-part {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+}

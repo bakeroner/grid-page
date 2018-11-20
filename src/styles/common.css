@@ -1,0 +1,21 @@
+html {
+	max-height: 100%;
+	overflow-x: hidden;
+}
+body {
+    position: relative;
+    margin: 0;
+    min-height: 100vh;
+    height: 100%;
+    width: 100%;
+    overflow-x: hidden;	
+}
+.header-container,
+.benefits__benefits-container,
+.portfolio__portfolio-container,
+.contact__contact-container,
+.footer__footer-container {
+	max-width: 1140px;
+	margin: 0 auto;
+	width: 100%;
+}

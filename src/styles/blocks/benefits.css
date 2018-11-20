@@ -1,0 +1,31 @@
+.benefits-container {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	grid-template-rows: repeat(3, 1fr);
+	grid-template-areas: 
+	"head head head"
+	"options development image"
+	"commerce customisable image";
+}
+.benefits-container__title-part {
+	grid-area: head;
+	text-align: center;
+}
+.option--options {
+	grid-area: options;
+}
+.option--development {
+	grid-area: development;
+}
+.option--commerce {
+	grid-area: commerce;	
+}
+.option--customizable {
+	grid-area: customisable;	
+}
+.benefits-container__benefit-image {
+	grid-area: image;
+}
+.option__list {
+	padding-left: 0;
+}
