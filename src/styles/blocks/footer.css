@@ -18,9 +18,11 @@
 
 .footer-container__copyright {
 	grid-area: rights;
+	justify-self: end;
 }
 .footer-container__social {
 	grid-area: social;
+	justify-self: end;
 }
 .social__social-list {
 	padding-left: 0;

@@ -9,6 +9,7 @@
 }
 .benefits-container__title-part {
 	grid-area: head;
+	align-self: center;
 	text-align: center;
 }
 .option--options {

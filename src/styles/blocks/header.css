@@ -15,6 +15,7 @@
 
 }
 .header-container__title-part {
+	align-self: center;
 	text-align: center;
 }
 .title-part__top-title {

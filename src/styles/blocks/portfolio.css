@@ -1,0 +1,24 @@
+.portfolio__portfolio-container {
+	display: grid;
+	grid-template-rows: 1fr 10fr; 
+	grid-template-columns: 15% 85%;
+	grid-template-areas:
+	"head head"
+	"menu images";
+}
+.menu__title {
+	margin-top: 0;
+}
+.menu__menu-list {
+	padding-left: 20px;
+}
+.portfolio-container__head {
+	text-align: center;
+	grid-area: head;
+}
+.portfolio-container__menu {
+	grid-area: menu;
+}
+.portfolio-container__image-container {
+	grid-area: images;
+}
