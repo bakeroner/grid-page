@@ -30,3 +30,10 @@
 .social-list__item {
 	display: inline;
 }
+.item__link {
+	color: #9a9a9a;
+	text-decoration: none;
+}
+.copyright__text {
+	color: #9a9a9a;
+}
