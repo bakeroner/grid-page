@@ -38,3 +38,12 @@
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
+.history-part__history-text {
+	color: #fff;
+	align-self: end;
+}
+.history-text__button {
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}

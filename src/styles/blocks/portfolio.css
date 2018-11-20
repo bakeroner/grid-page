@@ -22,3 +22,11 @@
 .portfolio-container__image-container {
 	grid-area: images;
 }
+.portfolio-container__image-container {
+	display: grid;
+	grid-template-columns: repeat(3, minmax(auto, 1fr));
+	grid-template-rows: repeat(3, minmax(auto, 1fr));
+	grid-gap: 30px 30px;
+
+
+}
