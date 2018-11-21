@@ -1,5 +1,7 @@
+@import url("https://unpkg.com/ionicons@4.4.7/dist/css/ionicons.min.css");
 @import url("common.css");
 @import url("background.css");
+@import url("types.css");
 @import url("blocks/header.css");
 @import url("blocks/benefits.css");
 @import url("blocks/footer.css");
