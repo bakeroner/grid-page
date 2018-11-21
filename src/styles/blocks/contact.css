@@ -11,6 +11,7 @@
 }
 .form__email-field {
 	width: 70%;
+	height: 44px;
 }
 .form {
 	width: 100%;
