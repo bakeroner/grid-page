@@ -1,7 +1,7 @@
 .portfolio__portfolio-container {
 	display: grid;
 	grid-template-rows: 1fr 10fr; 
-	grid-template-columns: 15% 85%;
+	grid-template-columns: 20% 80%;
 	grid-template-areas:
 	"head head"
 	"menu images";
@@ -34,9 +34,11 @@
 /*	display: flex;
 	width: auto;
 	height: 100%;*/
+	/*display: flex;*/
+	min-width: 0;
 }
 .image-container__image {
 	/*object-fit: cover;*/
-/*	height: auto;
-	width: 100%;*/
+	height: auto;
+	width: 100%;
 }
