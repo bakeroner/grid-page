@@ -11,7 +11,8 @@
 }
 .form__email-field {
 	width: 70%;
-	height: 44px;
+	height: 46px;
+	border: 1px solid #e5e5e5;
 }
 .form {
 	width: 100%;
@@ -32,4 +33,7 @@
 	background-color: #7beec7;
 	height: 50px;
 	width: 135px;
+}
+.right-part__form {
+	display: flex;
 }
