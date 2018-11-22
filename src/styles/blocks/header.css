@@ -33,6 +33,7 @@
 	max-width: 600px;
 }
 .history-part__history-image {
+	font-size: 0;
 	width: auto;
 	height: auto;
 }

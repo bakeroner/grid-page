@@ -25,6 +25,7 @@
 	grid-area: customisable;	
 }
 .benefits-container__benefit-image {
+	font-size: 0;
 	grid-area: image;
 }
 .option__list {
